@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-cd /Users/lucy/Desktop/spatial\ data/manuscript_seasonality/revised_dataset_2017
-
-python
+#cd /Users/lucy/Desktop/spatial\ data/manuscript_seasonality/revised_dataset_2017
+#
+#python
 
 #import libraries for running this program
 import urllib2, re
