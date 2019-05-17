@@ -15,8 +15,7 @@ herbSpDict = {"Abditomys latidens": 42641, "Abeomelomys sevia": 17879, "Abrawaya
 #create a list to store lines containing species names followed by the text in the "Habitat and Ecology" sections of their respective IUCN assessments
 table = ["species\tIUCN_habitat_and_ecology_notes"]
 
-#error at: i=1043
-for i in range(1044, len(herbSpDict)):
+for i in range(0, len(herbSpDict)):
 	#pull up a species' IUCN assessment from the Internet using its taxon ID
 	if herbSpDict[sorted(herbSpDict.keys())[i]] != "":
 		page = urllib2.urlopen("http://www.iucnredlist.org/details/%s/0" %herbSpDict[sorted(herbSpDict.keys())[i]])
